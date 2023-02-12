@@ -10,7 +10,7 @@ fun main() {
     if (measure.lowercase() != "km" && measure.lowercase() != "kilometers" && measure.lowercase() != "kilometer") {
         println("Wrong input")
     } else {
-        reformat(num, measure)
+        reformat(num)
     }
 
 }
