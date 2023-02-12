@@ -12,15 +12,13 @@ fun main() {
     } else {
         reformat(num)
     }
-
 }
 
-fun reformat(km: Int): Unit {
+fun reformat(km: Int) {
     var result = km * 1000
     if (km == 1) {
         println("$km kilometer is $result meters")
     } else {
         println("$km kilometers is $result meters")
     }
-
 }
